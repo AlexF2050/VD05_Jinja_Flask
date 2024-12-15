@@ -14,10 +14,13 @@ def index():
 @app.route("/shablon") # Декоратор
 def blog():
     context = {
-        "caption": "Блог",
-        "link": "Читать далее..."
+        "poem" : ["Белая береза,",
+                  "Под моим окном,",
+                  "Принакрылась снегом,",
+                  "Точно серебром."
+                 ]
     }
-    return render_template("blog.html", caption="Блог", link="Читать далее...") # Возвращаем html файл
+    return render_template("shablon.html", **context) # Возвращаем html файл
 
 @app.route("/shablon2") # Декоратор
 def contacts():

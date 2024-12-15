@@ -15,9 +15,9 @@ def index():
 def blog():
     context = {
         "caption": "Блог",
-        "link": "Читать далее..."
+        "link": "Читать далее"
     }
-    return render_template("blog.html", caption="Блог", link="Читать далее...") # Возвращаем html файл
+    return render_template("blog.html", **context) # Возвращаем html файл
 
 @app.route("/shablon2") # Декоратор
 def contacts():
