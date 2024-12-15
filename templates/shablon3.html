@@ -5,12 +5,12 @@
     <title>{{caption}}</title>
 </head>
 <body>
-    <p>
-    {% for user in list %}
-        {{user}}
-    {% endfor %}
 
-    </p>
+    {% if user %}
+        <p>Вы вошли под именем {{user}} </p>
+    {% endif %}
+
+
 
 </body>
 </html>
