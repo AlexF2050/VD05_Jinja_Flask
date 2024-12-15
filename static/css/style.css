@@ -1,4 +1,1 @@
-.caption1 {
-    color: red;
-    background-color: yellow;
-}
+wp_title( '' )

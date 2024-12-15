@@ -1,0 +1,92 @@
+{% extends "base.html" %}
+
+{% block title %}
+    Всё для праздника
+{% endblock %}
+
+{% block content %}
+
+<ul class="nav nav-pills">
+  <li class="nav-item">
+    <a class="nav-link active" aria-current="page" href="/">Главная</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="/shablon">Блог</a>
+  </li>
+
+</ul>
+
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Всё о праздниках</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#"></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <br>
+                    <img src="/static/image/Line1.jpg" class="d-block mx-auto" alt="...">
+                </div>
+            </div>
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+<br>
+
+        <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        Всё о праздниках:
+                    </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        Добро пожаловать!
+     Праздники - это время, когда мы можем отдохнуть, насладиться и провести время с близкими. Всё о праздниках - это статья, которая рассказывает о том, как праздники влияют на нашу жизнь и наше настроение.
+
+Праздники могут быть разными: от традиционных до необычных. Они могут быть предназначены для разных целей: от празднования религиозных событий до просто веселья и развлечений. Праздники могут быть использованы для того, чтобы отдохнуть, насладиться и провести время с близкими.
+
+Праздники могут помочь нам укрепить наши отношения с близкими и друзьями. Они могут быть использованы для того, чтобы поделиться радостью и счастьем с другими. Праздники могут быть использованы для того, чтобы отдохнуть и насладиться жизнью.
+
+Всё о праздниках - это статья, которая рассказывает о том, как праздники влияют на нашу жизнь и наше настроение. Они могут быть разными и предназначены для разных целей. Праздники могут быть использованы для того, чтобы отдохнуть, насладиться и провести время с близкими. Они могут быть использованы для того, чтобы укрепить наши отношения с близкими и друзьями.
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+
+{% endblock %}
